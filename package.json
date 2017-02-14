@@ -1,0 +1,42 @@
+{
+  "name": "sails-hook-autoreload-offshore",
+  "version": "0.1.0",
+  "description": "Sails JS hook to autoreload controllers and models when changed. Working with offshore orm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominicrico/sails-hook-autoreload-offshore.git"
+  },
+  "author": "Dominic Rico Gómez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgress454/sails-hook-autoreload-offshore/issues"
+  },
+  "homepage": "https://github.com/sgress454/sails-hook-autoreload-offshore",
+  "sails": {
+    "isHook": true
+  },
+  "dependencies": {
+    "chokidar": "^1.0.0"
+  },
+  "devDependencies": {
+    "sails": "~0.11.0"
+  },
+  "contributors": [
+    {
+      "name": "Cody Stoltman"
+    },
+    {
+      "name": "Mike McNeil"
+    },
+    {
+      "name": "Scott Gress"
+    },
+    {
+      "name": "Dominic Rico Gómez"
+    }
+  ]
+}
